@@ -30,3 +30,6 @@ myStr = "Hello World"; // Change this line
 
 // Only change code below this line
 const myArray = [[myArray]];
+
+const myArray = [50, 60, 70];
+var myData = myArray[0];
