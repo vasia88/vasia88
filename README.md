@@ -67,3 +67,7 @@ myArray.shift();
 myArray.unshift(["Paul", 35]);
 
 const myList = [["Milk", 3], ["Candy", 13], ["Chicken", 2], ["Mango", 5], ["Orange", 7]];
+
+let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
+let waldoRegex = /Waldo/; // Change this line
+let result = waldoRegex.test(waldoIsHiding);
