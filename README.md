@@ -75,3 +75,16 @@ let result = waldoRegex.test(waldoIsHiding);
 let myString = "freeCodeCamp";
 let fccRegex = /freecodecamp/i; // Change this line
 let result = fccRegex.test(myString);
+
+
+
+function myLocalScope() {
+  // Only change code below this line
+const myVar = 'inside myLocalScope';
+  console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
+console.log(myVar);
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+console.log('outside myLocalScope', myVar);
