@@ -126,3 +126,11 @@ function welcomeToBooleans() {
   return true; // Change this line
 
   // Only change code above this line
+
+let a = 5;
+let b = 1;
+a++;
+// Only change code below this line
+
+let sumAB = a + 1;
+console.log(a);
