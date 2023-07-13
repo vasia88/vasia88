@@ -139,3 +139,15 @@ console.log(a);
 let myArray = [1, 2, 3];
 let arraySum = myArray.reduce((previous, current) =>  previous + current);
 console.log(`Sum of array values is: ${arraySum}`);
+
+
+function mixedNumbers(arr) {
+  // Only change code below this link
+  arr = ['IV', 5, 'six'];
+  arr.unshift('I', 2, 'three');
+  arr.push(7, 'VIII', 9);
+  // Only change code above this line
+  return arr;
+}
+
+console.log(mixedNumbers(['IV', 5, 'six']));
